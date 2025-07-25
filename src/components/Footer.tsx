@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-accent">HumanCapital Pro</h3>
+            <h3 className="text-xl font-bold mb-4 text-accent">Felix Human Capital</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Elite human capital management solutions for forward-thinking organizations.
+              Trusted by industry leaders including Lufthansa, Swastik Masala, and Napier Healthcare.
             </p>
           </div>
           
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; 2024 HumanCapital Pro. All rights reserved.</p>
+          <p>&copy; 2024 Felix Human Capital. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -38,16 +38,16 @@ const Hero = () => {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent">2+</div>
-              <div className="text-white/80">Years of Excellence</div>
+              <div className="text-2xl font-bold text-accent">Lufthansa</div>
+              <div className="text-white/80">Aviation Partner</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent">Enterprise</div>
-              <div className="text-white/80">Partnerships</div>
+              <div className="text-2xl font-bold text-accent">Swastik Masala</div>
+              <div className="text-white/80">FMCG Partner</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-accent">100%</div>
-              <div className="text-white/80">Client Satisfaction</div>
+              <div className="text-2xl font-bold text-accent">Napier Healthcare</div>
+              <div className="text-white/80">Healthcare Partner</div>
             </div>
           </div>
         </div>
