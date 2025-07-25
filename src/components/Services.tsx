@@ -25,8 +25,8 @@ const Services = () => {
     {
       icon: Brain,
       title: "AI Training",
-      description: "Future-ready workforce development through cutting-edge artificial intelligence training programs.",
-      features: ["AI Literacy", "ML Workshops", "Digital Transformation", "Innovation Labs"]
+      description: "Future-ready workforce development in partnership with The AI School for cutting-edge training programs.",
+      features: ["AI Literacy Programs", "Custom ML Workshops", "Digital Transformation", "Innovation Bootcamps"]
     }
   ];
 

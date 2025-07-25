@@ -1,18 +1,18 @@
 const Expertise = () => {
   const stats = [
-    { value: "15+", label: "Years Experience" },
-    { value: "500+", label: "Successful Placements" },
-    { value: "50+", label: "Industry Partners" },
-    { value: "95%", label: "Client Satisfaction" }
+    { value: "2+", label: "Years Experience" },
+    { value: "Enterprise", label: "Partnerships" },
+    { value: "Lufthansa", label: "Key Partnership" },
+    { value: "100%", label: "Client Satisfaction" }
   ];
 
   const expertise = [
-    "Technology & Software",
-    "Financial Services",
-    "Healthcare & Biotech",
-    "Manufacturing",
-    "Consulting Services",
-    "E-commerce & Retail"
+    "Lufthansa Partnership",
+    "The AI School Collaboration",
+    "Aviation & Travel Industry",
+    "Technology & Innovation",
+    "Executive Search",
+    "AI Training & Development"
   ];
 
   return (
@@ -22,11 +22,11 @@ const Expertise = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Proven Expertise Across Industries
+              Strategic Partnerships & Expertise
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90 leading-relaxed">
-              Our team combines deep industry knowledge with innovative approaches to deliver 
-              exceptional results for clients across diverse sectors.
+              Built on strong relationships and strategic partnerships, we deliver exceptional 
+              human capital solutions with our trusted network including Lufthansa and The AI School.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -45,7 +45,7 @@ const Expertise = () => {
 
           <div className="bg-card/10 backdrop-blur-sm rounded-2xl p-8 border border-accent/20">
             <h3 className="text-2xl font-semibold mb-6 text-accent">
-              Industry Focus Areas
+              Key Partnerships & Focus
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {expertise.map((area, index) => (
