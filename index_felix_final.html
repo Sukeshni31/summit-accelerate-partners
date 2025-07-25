@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Felix Human Capital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #1e293b;
+    }
+    header {
+      background-color: #002f5e;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f1f5f9;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      color: #002f5e;
+      font-weight: 600;
+    }
+    .hero {
+      background-color: #e5f3ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #334155;
+    }
+    .btn {
+      display: inline-block;
+      margin: 20px 10px 0;
+      padding: 12px 28px;
+      background: #0ea5e9;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2em;
+      font-weight: 600;
+      color: #002f5e;
+      margin-bottom: 30px;
+    }
+    .services, .partners {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service, .partner {
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 20px;
+      background-color: #f8fafc;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid #cbd5e1;
+    }
+    footer {
+      background-color: #002f5e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .footer-links {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div><strong>Felix Human Capital</strong></div>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#form" class="btn" style="background: #0ea5e9; color:white; padding: 8px 16px;">Get Consultation</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Premium consulting team</h1>
+  <p>Transforming organizations through strategic executive hiring, technical excellence,<br> GCC optimization, and cutting-edge AI training solutions.</p>
+  <a class="btn" href="#form">Schedule Consultation</a>
+  <a class="btn" href="#services" style="background: #38bdf8;">View Our Services</a>
+</header>
+
+<section id="services">
+  <div class="section-title">Our Services</div>
+  <div class="services">
+    <div class="service">
+      <h3>Executive Hiring</h3>
+      <ul>
+        <li>C-Suite Recruitment</li>
+        <li>Board Advisory</li>
+        <li>Leadership Assessment</li>
+        <li>Cultural Fit Analysis</li>
+      </ul>
+    </div>
+    <div class="service">
+      <h3>Technical Hiring</h3>
+      <ul>
+        <li>Tech Leadership</li>
+        <li>Engineering Teams</li>
+        <li>AI/ML Specialists</li>
+        <li>Data Scientists</li>
+      </ul>
+    </div>
+    <div class="service">
+      <h3>GCC Support</h3>
+      <ul>
+        <li>GCC Strategy</li>
+        <li>Talent Planning</li>
+        <li>Organizational Design</li>
+        <li>Process Optimization</li>
+      </ul>
+    </div>
+    <div class="service">
+      <h3>AI Training</h3>
+      <ul>
+        <li>AI Literacy Programs</li>
+        <li>Custom ML Workshops</li>
+        <li>Digital Transformation</li>
+        <li>Innovation Bootcamps</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="expertise">
+  <div class="section-title">Trusted by Industry Leaders</div>
+  <div class="partners">
+    <div class="partner"><strong>Lufthansa</strong><br>Aviation Excellence</div>
+    <div class="partner"><strong>Swastiks</strong><br>FMCG Leadership</div>
+    <div class="partner"><strong>Napier Healthcare</strong><br>Healthcare Innovation</div>
+  </div>
+</section>
+
+<section id="form">
+  <div class="section-title">Get in Touch</div>
+  <form>
+    <div class="form-group"><input type="text" placeholder="First Name"></div>
+    <div class="form-group"><input type="text" placeholder="Last Name"></div>
+    <div class="form-group"><input type="email" placeholder="Email Address"></div>
+    <div class="form-group"><input type="text" placeholder="Company"></div>
+    <div class="form-group"><textarea rows="5" placeholder="Tell us about your needs..."></textarea></div>
+    <a class="btn" href="mailto:contact@felixhumancapital.com">Schedule Consultation</a>
+  </form>
+</section>
+
+<footer>
+  <p><strong>Felix Human Capital</strong> — Trusted by Lufthansa, Swastiks, and Napier Healthcare</p>
+  <div class="footer-links">
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+    <a href="#">Newsletter</a>
+    <a href="#">Blog</a>
+  </div>
+  <p>&copy; 2024 Felix Human Capital. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
