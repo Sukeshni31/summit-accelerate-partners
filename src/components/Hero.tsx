@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-consulting.jpg";
+import heroImage from "@/assets/woman-executive.jpg";
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Elite Human Capital
+            Human Capital
             <span className="block text-accent">Management</span>
           </h1>
           
@@ -42,7 +42,7 @@ const Hero = () => {
               <div className="text-white/80">Aviation Partner</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-accent">Swastik Masala</div>
+              <div className="text-2xl font-bold text-accent">Swastiks</div>
               <div className="text-white/80">FMCG Partner</div>
             </div>
             <div className="text-center">

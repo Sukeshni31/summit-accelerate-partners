@@ -1,14 +1,14 @@
 const Expertise = () => {
   const stats = [
     { value: "Lufthansa", label: "Aviation Excellence" },
-    { value: "Swastik Masala", label: "FMCG Leadership" },
+    { value: "Swastiks", label: "FMCG Leadership" },
     { value: "Napier Healthcare", label: "Healthcare Innovation" },
     { value: "100%", label: "Client Satisfaction" }
   ];
 
   const expertise = [
     "Lufthansa - Aviation Excellence",
-    "Swastik Masala - FMCG Leadership", 
+    "Swastiks - FMCG Leadership", 
     "Napier Healthcare - Healthcare Innovation",
     "The AI School Collaboration",
     "Executive Search Excellence",
@@ -26,7 +26,7 @@ const Expertise = () => {
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90 leading-relaxed">
               Building strong partnerships with industry leaders across aviation, FMCG, and healthcare. 
-              Our relationships with Lufthansa, Swastik Masala, and Napier Healthcare demonstrate our expertise.
+              Our relationships with Lufthansa, Swastiks, and Napier Healthcare demonstrate our expertise.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">

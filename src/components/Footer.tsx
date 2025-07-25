@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-accent">Felix Human Capital</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Trusted by industry leaders including Lufthansa, Swastik Masala, and Napier Healthcare.
+              Trusted by industry leaders including Lufthansa, Swastiks, and Napier Healthcare.
             </p>
           </div>
           
